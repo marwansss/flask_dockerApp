@@ -4,7 +4,7 @@ pipeline{
         stage('build'){
             steps{
                 sh "docker build -t marwan:${BUILD_NUMBER} ."
-                //comment
+                //comments
             }
         }
         stage('test'){
